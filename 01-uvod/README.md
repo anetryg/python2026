@@ -110,27 +110,20 @@ Graf nahoře ukazuje, které jazyky se používají nejvíc. Stejně důležité
 
 *Cursor: podíl změn od AI, které lidé přijmou bez vlastní kontroly, vzrostl za rok a půl ze 7 % na 38 %.*
 
-Poslední graf je pro tento předmět nejdůležitější. Víc než třetina změn od AI se dnes přijímá, aniž by je někdo přečetl. Tento podíl roste, a s ním roste i množství chyb, které nikdo nezachytil. Přesně proto se v tomto kurzu budeme učit hlavně kód číst.
+Poslední graf je pro tento předmět nejdůležitější. Víc než třetina změn od AI se dnes přijímá, aniž by je někdo přečetl. Tento podíl roste, a s ním roste i množství chyb, které nikdo nezachytil.
 
 ### Proč se učit programovat, když to umí AI
 
 Znáte to z navigace v autě. GPS vás dovede téměř kamkoli, ale když vás pošle do řeky nebo do protisměru, musíte to poznat vy. K tomu potřebujete umět číst mapu, i když ji většinu cesty nedržíte v ruce.
 
-S programováním a AI je to stejné. AI asistent napíše kód rychleji než vy. Ale nenese odpovědnost za výsledek. V geoinformatice znamená chybný kód chybnou analýzu, chybnou mapu a nakonec chybné rozhodnutí někoho, kdo té mapě věřil. Podepsaní pod tím budete vy.
+S programováním a AI je to stejné. AI asistent napíše kód rychleji než vy. Ale nenese odpovědnost za výsledek. V geoinformatice znamená chybný kód chybnou analýzu, chybnou mapu a nakonec chybné rozhodnutí někoho, kdo té mapě věřil.
 
-Co se s AI mění: strávíte méně času vypisováním syntaxe z hlavy. Co se nemění: musíte umět úlohu **přesně zadat**, výsledek **přečíst**, **ověřit** a **opravit**. Právě to se v tomto předmětu učíme.
+Co se s AI mění: strávíte méně času vypisováním syntaxe z hlavy. Co se nemění: musíte umět úlohu **přesně zadat**, výsledek **přečíst**, **ověřit** a **opravit**.
 
 ### Číst kód je důležitější než ho psát
 
-Programátoři vždycky četli víc kódu, než ho napsali. Odhaduje se, že čtením stráví zhruba desetkrát více času než psaním. S AI se tento poměr ještě zvětšuje, protože většinu kódu, se kterým budete pracovat, jste nenapsali vy.
+Programátoři vždycky četli víc kódu, než ho napsali, s AI se tento poměr ještě zvětšuje, protože většinu kódu, se kterým budete pracovat, jste nenapsali vy.
 
-Číst kód znamená umět říct, co udělá, **ještě před tím, než ho spustíte**. To za vás AI neudělá, protože vy jste ten, kdo ji kontroluje.
-
-V každé hodině proto budeme dělat tři věci:
-
-1. **Co vypíše?** Před spuštěním každé ukázky si napíšete, co očekáváte. Pak teprve spustíte a porovnáte.
-2. **Kde je chyba?** Dostanete kus kódu, který vypadá správně, a hledáte, proč nefunguje.
-3. **Vysvětli sousedovi.** Řádek po řádku, vlastními slovy. Kdo to nedokáže, kódu ještě nerozumí.
 
 Zásada, která platí i pro domácí úkoly: **kód, který nedokážete vysvětlit, není váš kód.**
 
@@ -138,7 +131,6 @@ Zásada, která platí i pro domácí úkoly: **kód, který nedokážete vysvě
 
 ![Stack Overflow vs ChatGPT](images/stackoverflow_vs_chatgpt.png)
 
-*Stack Overflow vám řekl, že se mýlíte, a často měl pravdu. ChatGPT vám řekne, že máte pravdu, a často se mýlí.*
 
 Jazykové modely mají sklon souhlasit s tím, co jim předložíte. Když napíšete „tady má být stupňů, ne radiánů, že?", nejspíš vám dá za pravdu. Když napíšete opak, nejspíš také. Ověření je na vás.
 
@@ -408,30 +400,3 @@ bla bla bla bla bla bla bla bla bla bla
 ```
 
 
-# Cvičení na první hodinu
-
-## 1. Co vypíše?
-
-Nejdřív si ke každému řádku napište, co očekáváte. Teprve pak spusťte.
-
-```python
-print(7 // 2)
-print(7 % 2)
-print(10 / 2)
-print("3" + "4")
-print("3" * 4)
-print("na" * 3 + " batman")
-```
-
-## 2. Přečtěte chybu
-
-Spusťte soubor `second.py`. Chybovou hlášku čtěte odspodu, poslední řádek říká, co se stalo. Vysvětlete ji vlastními slovy sousedovi. Pak ji vložte do AI a nechte si ji vysvětlit. Porovnejte: řekla vám AI něco, co jste nevěděli? Měla pravdu?
-
-## 3. Otestujte AI
-
-Požádejte AI, aby napsala program pro převod souřadnice ze stupňů, minut a sekund na desetinné stupně.
-
-* Otestujte na `49° 12' 30"`. Správný výsledek je `49.208333`.
-* Pak otestujte na jižní polokouli: `-33° 52' 10"`. Správný výsledek je `-33.869444`.
-
-Řada vygenerovaných řešení vrátí `-32.130556`, protože minuty a sekundy přičte k zápornému číslu místo odečtení. Program „funguje" na běžném vstupu a selže na hraničním. Všimne si toho jen ten, kdo ví, jaký má být správný výsledek.
