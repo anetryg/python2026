@@ -33,9 +33,6 @@ Každá kapitola obsahuje odkaz na odpovídající složku v tomto repozitáři
 7. [OOP - dědičnost, procvičování](./08-oop_dedicnost)
     * dědičnost
     * procvičování OOP
-8. [ArcPy](./09-arcpy) *(složka zatím není v repozitáři)*
-    * ArcGIS Pro
-    * úvod do ArcPy
 
 
 
