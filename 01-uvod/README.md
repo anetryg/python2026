@@ -2,7 +2,7 @@
 ## Instalace jazyka Python
 Pokud máte počítač s Windows, následujte tyto kroky:
 
-1. Ujistěte se, že máte aktualizovaný systém. To zajistíte nejjednodušeji tak, že svůj počítač restartujete.
+1. Ujistěte se, že máte aktualizovaný systém.
 
 2. Jděte na stránku Python Releases for Windows, kde klikněte na Latest Python 3 Release a dole stáhněte Windows installer (64-bit). Stažený soubor spusťte. Rozběhne se průvodce instalací.
 
@@ -172,7 +172,7 @@ Otázka k zamyšlení: **poznali byste chybu, kdyby program vypsal 212 km?** To 
 | „Nefunguje mi to." | Vložím celý kód, celou chybovou hlášku a napíšu, co jsem čekal a co se stalo. |
 | „Je to správně?" | „Najdi v tom chyby a řekni mi, jakými vstupy je otestovat." |
 | Nechám AI napsat všechno. | Napíšu to sám a pak nechám AI udělat kontrolu. |
-| | „Vymysli mi tři podobné příklady na procvičení." |
+| Skončím, jakmile úkol funguje. | „Vymysli mi tři podobné příklady na procvičení." |
 
 Když od AI dostanete kód, postupujte vždy stejně:
 

@@ -1,0 +1,6 @@
+# Vlastní řešení úkolů - zůstávají jen na disku, do repozitáře nepatří
+*_reseni.py
+
+# Vedlejší produkty Pythonu
+__pycache__/
+*.pyc
